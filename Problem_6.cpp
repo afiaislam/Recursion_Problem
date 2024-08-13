@@ -18,7 +18,7 @@ int calPower(int x, int n)
 int main()
 {
     int x, n;
-    cout << "Enter the value of X: ";
+    cout << "Enter the value of X: " ;
     cin >> x;
     cout << "Enter the value of n: ";
     cin >> n;

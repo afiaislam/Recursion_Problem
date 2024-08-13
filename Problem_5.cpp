@@ -14,7 +14,7 @@ void printFib(int a, int b, int n)
 int main()
 {
     int n;
-    cout << "Enter the length: ";
+    cout << "Enter the length: " ;
     cin >> n;
     cout << "The Fibonacci sequence is: ";
     int a = 0, b = 1;

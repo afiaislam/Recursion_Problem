@@ -17,7 +17,7 @@ void printSum(int i, int n, int sum)
 int main()
 {
     int n;
-    cout << "Enter the value of N: ";
+    cout << "Enter the value of N: " ;
     cin >> n;
     printSum(1, n, 0);
 

@@ -14,7 +14,7 @@ int calcFact(int n)
 int main()
 {
     int n;
-    cout << "Enter a number: ";
+    cout << "Enter a number: " ;
     cin >> n;
     int ans = calcFact(n);
     cout << "The factorial of " << n << " is: " << ans;

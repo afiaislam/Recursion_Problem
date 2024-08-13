@@ -8,7 +8,7 @@ void towerOfHanoi(int n, string s, string h, string d)
         cout << "Transfer disk " << n << " from " << s << " to " << d << endl;
         return;
     }
-    towerOfHanoi(n - 1, s, d, h);
+    towerOfHanoi(n - 1, s, d, h) ;
     cout << "Transfer disk " << n << " from " << s << " to " << d << endl;
     towerOfHanoi(n - 1, h, s, d);
 }

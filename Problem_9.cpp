@@ -14,7 +14,7 @@ void printRev(string str, int idx)
 int main()
 {
     string str;
-    cout << "Type a string: ";
+    cout << "Type a string: " ;
     cin >> str;
     printRev(str, str.length() - 1);
 

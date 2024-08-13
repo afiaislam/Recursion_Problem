@@ -13,7 +13,7 @@ void printNum(int n)
 int main()
 {
     int n;
-    cout << "Enter a value of N: ";
+    cout << "Enter a value of N: " ;
     cin >> n;
     printNum(n);
 
